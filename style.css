@@ -92,108 +92,135 @@
 
 .chat{ grid-row: 70 / 75; }
 .infoChat{ grid-row: 76 / 85; }
-#locationIcon{ 	grid-column: 17 / 50; grid-row: 77 / 105; }
-#phoneIcon{ 	grid-column: 16 / 40; grid-row: 83 / 105; }
-#emailIcon{ 	grid-column: 16 / 40; grid-row: 89 / 105; }
-#linkedinIcon{ 	grid-column: 16 / 40; grid-row: 95 / 105; }
-#gitIcon{ 		grid-column: 16 / 40; grid-row: 101 / 105; }
+#locationIcon{ 	
+	grid-column: 15 / 50; 
+	grid-row: 77 / 105;
+	width: 27%;
+}
+#phoneIcon{ 	
+	grid-column: 16 / 40; 
+	grid-row: 83 / 105; 
+	width: 27%;
+}
+#emailIcon{ 	
+	grid-column: 14 / 40; 
+	grid-row: 89 / 105; 
+	width: 45%;
+}
+#linkedinIcon{ 	
+	grid-column: 12 / 40; 
+	grid-row: 94 / 105; 
+	width: 60%;
+}
+#gitIcon{ 		
+	grid-column: 16 / 40; 
+	grid-row: 101 / 105; 
+	width: 39%;
+}
+@media only screen and (max-width: 1300px) {
+	#locationIcon{ 	grid-column: 17 / 50; grid-row: 76 / 155; width: 25%; }
+	#phoneIcon{ 	grid-column: 18 / 40; grid-row: 82 / 155; width: 25%; }
+	#emailIcon{ 	grid-column: 16 / 40; grid-row: 87 / 155; width: 39%; }
+	#linkedinIcon{ 	grid-column: 17 / 40; grid-row: 92 / 155; width: 39%; }
+	#gitIcon{ 		grid-column: 17 / 40; grid-row: 97 / 155; width: 35%; }
+}
 @media only screen and (max-width: 1026px) {
-	#locationIcon{ 	grid-column: 18 / 50; grid-row: 77 / 105; }
-	#phoneIcon{ 	grid-column: 17 / 40; grid-row: 82 / 105; }
-	#emailIcon{ 	grid-column: 17 / 40; grid-row: 87 / 105; }
-	#linkedinIcon{ 	grid-column: 17 / 40; grid-row: 92 / 105; }
-	#gitIcon{ 		grid-column: 17 / 40; grid-row: 97 / 105; }
+	#locationIcon{ 	grid-column: 17 / 50; grid-row: 76 / 155; width: 20%; }
+	#phoneIcon{ 	grid-column: 18 / 40; grid-row: 82 / 155; width: 20%; }
+	#emailIcon{ 	grid-column: 16 / 40; grid-row: 87 / 155; width: 39%; }
+	#linkedinIcon{ 	grid-column: 17 / 40; grid-row: 92 / 155; width: 39%; }
+	#gitIcon{ 		grid-column: 17 / 40; grid-row: 97 / 155; width: 35%; }
 }
 @media only screen and (max-width: 972px)  {
-	#locationIcon{ 	grid-column: 18 / 50; grid-row: 77 / 105; }
-	#phoneIcon{ 	grid-column: 17 / 40; grid-row: 82 / 105; }
-	#emailIcon{ 	grid-column: 17 / 40; grid-row: 87 / 105; }
-	#linkedinIcon{ 	grid-column: 17 / 40; grid-row: 92 / 105; }
-	#gitIcon{ 		grid-column: 17 / 40; grid-row: 97 / 105; }
+	#locationIcon{ 	grid-column: 17 / 50; grid-row: 76 / 155; width: 25%; }
+	#phoneIcon{ 	grid-column: 18 / 40; grid-row: 82 / 155; width: 25%; }
+	#emailIcon{ 	grid-column: 16 / 40; grid-row: 87 / 155; width: 39%; }
+	#linkedinIcon{ 	grid-column: 17 / 40; grid-row: 92 / 155; width: 39%; }
+	#gitIcon{ 		grid-column: 17 / 40; grid-row: 97 / 155; width: 35%; }
 }
 @media only screen and (max-width: 918px)  {
-	#locationIcon{ 	grid-column: 18 / 50; grid-row: 77 / 105; }
-	#phoneIcon{ 	grid-column: 17 / 40; grid-row: 82 / 105; }
-	#emailIcon{ 	grid-column: 17 / 40; grid-row: 87 / 105; }
-	#linkedinIcon{ 	grid-column: 17 / 40; grid-row: 92 / 105; }
-	#gitIcon{ 		grid-column: 17 / 40; grid-row: 97 / 105; }
+	#locationIcon{ 	grid-column: 17 / 50; grid-row: 76 / 155; width: 20%; }
+	#phoneIcon{ 	grid-column: 18 / 40; grid-row: 82 / 155; width: 20%; }
+	#emailIcon{ 	grid-column: 16 / 40; grid-row: 87 / 155; width: 39%; }
+	#linkedinIcon{ 	grid-column: 17 / 40; grid-row: 92 / 155; width: 39%; }
+	#gitIcon{ 		grid-column: 17 / 40; grid-row: 97 / 155; width: 35%; }
 }
 @media only screen and (max-width: 864px)  {
-	#locationIcon{ 	grid-column: 17 / 50; grid-row: 77 / 105; }
-	#phoneIcon{ 	grid-column: 16 / 40; grid-row: 82 / 105; }
-	#emailIcon{ 	grid-column: 16 / 40; grid-row: 87 / 105; }
-	#linkedinIcon{ 	grid-column: 16 / 40; grid-row: 92 / 105; }
-	#gitIcon{ 		grid-column: 16 / 40; grid-row: 97 / 105; }
+	#locationIcon{ 	grid-column: 17 / 50; grid-row: 76 / 155; width: 20%; }
+	#phoneIcon{ 	grid-column: 18 / 40; grid-row: 82 / 155; width: 20%; }
+	#emailIcon{ 	grid-column: 16 / 40; grid-row: 87 / 155; width: 39%; }
+	#linkedinIcon{ 	grid-column: 17 / 40; grid-row: 92 / 155; width: 39%; }
+	#gitIcon{ 		grid-column: 17 / 40; grid-row: 97 / 155; width: 35%; }
 }
 @media only screen and (max-width: 810px)  {
-	#locationIcon{ 	grid-column: 18 / 50; grid-row: 77 / 105; }
-	#phoneIcon{ 	grid-column: 17 / 40; grid-row: 82 / 105; }
-	#emailIcon{ 	grid-column: 17 / 40; grid-row: 87 / 105; }
-	#linkedinIcon{ 	grid-column: 17 / 40; grid-row: 92 / 105; }
-	#gitIcon{ 		grid-column: 17 / 40; grid-row: 97 / 105; }
+	#locationIcon{ 	grid-column: 17 / 50; grid-row: 76 / 155; width: 20%; }
+	#phoneIcon{ 	grid-column: 18 / 40; grid-row: 82 / 155; width: 20%; }
+	#emailIcon{ 	grid-column: 16 / 40; grid-row: 87 / 155; width: 39%; }
+	#linkedinIcon{ 	grid-column: 17 / 40; grid-row: 92 / 155; width: 39%; }
+	#gitIcon{ 		grid-column: 17 / 40; grid-row: 97 / 155; width: 35%; }
 }
 @media only screen and (max-width: 756px)  {
-	#locationIcon{ 	grid-column: 18 / 50; grid-row: 77 / 105; }
-	#phoneIcon{ 	grid-column: 17 / 40; grid-row: 82 / 105; }
-	#emailIcon{ 	grid-column: 17 / 40; grid-row: 87 / 105; }
-	#linkedinIcon{ 	grid-column: 17 / 40; grid-row: 92 / 105; }
-	#gitIcon{ 		grid-column: 17 / 40; grid-row: 97 / 105; }
+	#locationIcon{ 	grid-column: 18 / 50; grid-row: 76 / 155; width: 20%; }
+	#phoneIcon{ 	grid-column: 19 / 40; grid-row: 82 / 155; width: 20%; }
+	#emailIcon{ 	grid-column: 16 / 40; grid-row: 87 / 155; width: 39%; }
+	#linkedinIcon{ 	grid-column: 17 / 40; grid-row: 92 / 155; width: 39%; }
+	#gitIcon{ 		grid-column: 17 / 40; grid-row: 97 / 155; width: 35%; }
 }
 @media only screen and (max-width: 702px)  {
-	#locationIcon{ 	grid-column: 18 / 50; grid-row: 76 / 105; }
-	#phoneIcon{ 	grid-column: 17 / 40; grid-row: 81 / 105; }
-	#emailIcon{ 	grid-column: 17 / 40; grid-row: 86 / 105; }
-	#linkedinIcon{ 	grid-column: 17 / 40; grid-row: 91 / 105; }
-	#gitIcon{ 		grid-column: 17 / 40; grid-row: 96 / 105; }
+	#locationIcon{ 	grid-column: 17 / 50; grid-row: 76 / 155; width: 23%; }
+	#phoneIcon{ 	grid-column: 18 / 40; grid-row: 82 / 155; width: 25%; }
+	#emailIcon{ 	grid-column: 16 / 40; grid-row: 87 / 155; width: 39%; }
+	#linkedinIcon{ 	grid-column: 17 / 40; grid-row: 92 / 155; width: 39%; }
+	#gitIcon{ 		grid-column: 17 / 40; grid-row: 97 / 155; width: 35%; }
 }
 @media only screen and (max-width: 648px)  {
-	#locationIcon{ 	grid-column: 18 / 50; grid-row: 76 / 105; }
-	#phoneIcon{ 	grid-column: 17 / 40; grid-row: 81 / 105; }
-	#emailIcon{ 	grid-column: 17 / 40; grid-row: 86 / 105; }
-	#linkedinIcon{ 	grid-column: 17 / 40; grid-row: 91 / 105; }
-	#gitIcon{ 		grid-column: 17 / 40; grid-row: 96 / 105; }
+	#locationIcon{ 	grid-column: 17 / 50; grid-row: 76 / 155; width: 23%; }
+	#phoneIcon{ 	grid-column: 18 / 40; grid-row: 82 / 155; width: 25%; }
+	#emailIcon{ 	grid-column: 16 / 40; grid-row: 87 / 155; width: 39%; }
+	#linkedinIcon{ 	grid-column: 17 / 40; grid-row: 92 / 155; width: 39%; }
+	#gitIcon{ 		grid-column: 18 / 40; grid-row: 97 / 155; width: 35%; }
 }
 @media only screen and (max-width: 594px)  {
-	#locationIcon{ 	grid-column: 18 / 50; grid-row: 76 / 105; }
-	#phoneIcon{ 	grid-column: 17 / 40; grid-row: 81 / 105; }
-	#emailIcon{ 	grid-column: 17 / 40; grid-row: 86 / 105; }
-	#linkedinIcon{ 	grid-column: 17 / 40; grid-row: 91 / 105; }
-	#gitIcon{ 		grid-column: 17 / 40; grid-row: 96 / 105; }
+	#locationIcon{ 	grid-column: 17 / 50; grid-row: 77 / 155; width: 20%; }
+	#phoneIcon{ 	grid-column: 18 / 40; grid-row: 82 / 155; width: 20%; }
+	#emailIcon{ 	grid-column: 16 / 40; grid-row: 87 / 155; width: 39%; }
+	#linkedinIcon{ 	grid-column: 17 / 40; grid-row: 92 / 155; width: 39%; }
+	#gitIcon{ 		grid-column: 17 / 40; grid-row: 97 / 155; width: 35%; }
 }
 @media only screen and (max-width: 540px)  {
-	#locationIcon{ 	grid-column: 18 / 50; grid-row: 75 / 105; }
-	#phoneIcon{ 	grid-column: 17 / 40; grid-row: 80 / 105; }
-	#emailIcon{ 	grid-column: 17 / 40; grid-row: 85 / 105; }
-	#linkedinIcon{ 	grid-column: 17 / 40; grid-row: 90 / 105; }
-	#gitIcon{ 		grid-column: 17 / 40; grid-row: 95 / 105; }
+	#locationIcon{ 	grid-column: 17 / 50; grid-row: 76 / 155; width: 20%; }
+	#phoneIcon{ 	grid-column: 18 / 40; grid-row: 82 / 155; width: 20%; }
+	#emailIcon{ 	grid-column: 16 / 40; grid-row: 87 / 155; width: 39%; }
+	#linkedinIcon{ 	grid-column: 17 / 40; grid-row: 92 / 155; width: 39%; }
+	#gitIcon{ 		grid-column: 17 / 40; grid-row: 97 / 155; width: 35%; }
 }
 @media only screen and (max-width: 486px)  {
-	#locationIcon{ 	grid-column: 17 / 50; grid-row: 74 / 105; }
-	#phoneIcon{ 	grid-column: 16 / 40; grid-row: 79 / 105; }
-	#emailIcon{ 	grid-column: 16 / 40; grid-row: 84 / 105; }
-	#linkedinIcon{ 	grid-column: 16 / 40; grid-row: 89 / 105; }
-	#gitIcon{ 		grid-column: 16 / 40; grid-row: 94 / 105; }
+	#locationIcon{ 	grid-column: 17 / 50; grid-row: 76 / 155; width: 20%; }
+	#phoneIcon{ 	grid-column: 18 / 40; grid-row: 82 / 155; width: 20%; }
+	#emailIcon{ 	grid-column: 16 / 40; grid-row: 87 / 155; width: 39%; }
+	#linkedinIcon{ 	grid-column: 17 / 40; grid-row: 92 / 155; width: 39%; }
+	#gitIcon{ 		grid-column: 17 / 40; grid-row: 97 / 155; width: 35%; }
 }
 @media only screen and (max-width: 432px)  {
-	#locationIcon{ 	grid-column: 17 / 50; grid-row: 75 / 105; }
-	#phoneIcon{ 	grid-column: 16 / 40; grid-row: 80 / 105; }
-	#emailIcon{ 	grid-column: 16 / 40; grid-row: 85 / 105; }
-	#linkedinIcon{ 	grid-column: 16 / 40; grid-row: 90 / 105; }
-	#gitIcon{ 		grid-column: 16 / 40; grid-row: 96 / 105; }
+	#locationIcon{ 	grid-column: 17 / 50; grid-row: 76 / 155; width: 20%; }
+	#phoneIcon{ 	grid-column: 18 / 40; grid-row: 82 / 155; width: 20%; }
+	#emailIcon{ 	grid-column: 16 / 40; grid-row: 87 / 155; width: 39%; }
+	#linkedinIcon{ 	grid-column: 17 / 40; grid-row: 92 / 155; width: 39%; }
+	#gitIcon{ 		grid-column: 17 / 40; grid-row: 97 / 155; width: 35%; }
 }
 @media only screen and (max-width: 378px)  {
-	#locationIcon{ 	grid-column: 19 / 50; grid-row: 73 / 105; }
-	#phoneIcon{ 	grid-column: 18 / 50; grid-row: 78 / 105; }
-	#emailIcon{ 	grid-column: 18 / 40; grid-row: 83 / 105; }
-	#linkedinIcon{ 	grid-column: 18 / 40; grid-row: 88 / 105; }
-	#gitIcon{ 		grid-column: 18 / 40; grid-row: 94 / 105; }
+	#locationIcon{ 	grid-column: 17 / 50; grid-row: 76 / 155; width: 20%; }
+	#phoneIcon{ 	grid-column: 18 / 50; grid-row: 81 / 155; width: 16%; }
+	#emailIcon{ 	grid-column: 16 / 40; grid-row: 87 / 155; width: 39%; }
+	#linkedinIcon{ 	grid-column: 17 / 40; grid-row: 92 / 155; width: 39%; }
+	#gitIcon{ 		grid-column: 17 / 40; grid-row: 97 / 155; width: 35%; }
 }
 @media only screen and (max-width: 324px)  {
-	#locationIcon{ 	grid-column: 20 / 50; grid-row: 71 / 105; }
-	#phoneIcon{ 	grid-column: 19 / 50; grid-row: 76 / 105; }
-	#emailIcon{ 	grid-column: 19 / 40; grid-row: 81 / 105; }
-	#linkedinIcon{ 	grid-column: 19 / 40; grid-row: 86 / 105; }
-	#gitIcon{ 		grid-column: 19 / 40; grid-row: 91 / 105; }
+	#locationIcon{ 	grid-column: 16 / 50; grid-row: 75 / 155; width: 20%; }
+	#phoneIcon{ 	grid-column: 16 / 50; grid-row: 80 / 155; width: 20%; }
+	#emailIcon{ 	grid-column: 15 / 40; grid-row: 87 / 155; width: 39%; }
+	#linkedinIcon{ 	grid-column: 15 / 40; grid-row: 92 / 155; width: 39%; }
+	#gitIcon{ 		grid-column: 16 / 40; grid-row: 97 / 155; width: 33%; }
 }
 
 
