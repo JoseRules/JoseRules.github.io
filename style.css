@@ -356,7 +356,7 @@ article .icon{
 }
 
 .project-title {
-  margin: 1rem;
+  margin: 10px;
   color: black;
 }
 
@@ -364,7 +364,39 @@ article .icon{
   color: black;
   border-color: rgb(163, 163, 163);
 }
+.project-containers{
+  display: block;
+  justify-content: space-between;
+}
+.project-container{
+  width: calc(33% - 100px);
+  margin-left: 25px;
+  padding: 1.5rem;
+  flex: 1;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+  text-align: center;
+}
 
+.icon-container{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tech-icon{
+  width: 50px;
+
+}
+
+.project{
+  gap: 1rem;
+}
+.project p{
+  text-align: center;
+}
 /* CONTACT SECTION */
 
 #contact {
